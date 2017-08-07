@@ -2,6 +2,7 @@ import os
 import shutil
 import send2trash
 
+# providing destination for specific files.
 pwd = os.getcwd()
 dest = '/Users/simar/AllPictures'
 dest_pdf = '/Users/simar/Documents/sort_pdf'
