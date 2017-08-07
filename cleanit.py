@@ -8,7 +8,7 @@ dest = '/Users/simar/AllPictures'
 dest_pdf = '/Users/simar/Documents/sort_pdf'
 dest_mp3 = '/Users/simar/soundtracks'
 files = os.listdir(pwd)
-
+# moving files to specific folders
 for f in files:
 	if (f.endswith("jpg") or f.endswith(".jpeg") or f.endswith("png")):
 		shutil.move(f,dest)
